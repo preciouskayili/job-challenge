@@ -20,15 +20,48 @@
   </head>
 
   <body>
-    <header class="container-fluid px-5 bg">
+    <header class="container-fluid px-lg-5 bg">
       <div class="d-flex flex-column" style="min-height: 100vh">
-        <nav class="navbar navbar-dark py-3 shadow-none">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 shadow-none">
           <a class="navbar-brand text-light">
             <span class="fw-bold fs-3">NEWYORK</span>
             <span style="font-size: 16px">tourists</span>
           </a>
 
-          <button class="btn btn-light btn-lg fs-6">Get Started</button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white fw-medium" href="/">Home</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">FAQs</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item ms-3">
+                <button class="btn btn-light btn-lg fs-6">Get Started</button>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <div class="header-content text-justify my-auto">
@@ -56,7 +89,7 @@
       </div>
     </header>
 
-    <section class="container-fluid px-5 mt-5">
+    <section class="container-fluid px-lg-5 mt-5">
       <p class="fw-medium fs-5 mb-1">Visit</p>
       <h3 class="text-black mb-4 mt-0 fw-bold display-6">Vibrant Cities</h3>
 
@@ -119,7 +152,7 @@
       </div>
     </section>
 
-    <section class="container-fluid px-5 mt-5">
+    <section class="container-fluid px-lg-5 mt-5">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-6 col-12 mb-4 mb-lg-0">
           <img class="w-full img-fluid" src="./assets/destination.png" />
@@ -142,7 +175,7 @@
       </div>
     </section>
 
-    <section class="container-fluid px-5 py-5">
+    <section class="container-fluid px-lg-5 py-5">
       <div
         class="bg-black community d-flex flex-column justify-content-center align-items-center rounded-4 mb-4 py-8 mt-5"
       >
@@ -166,7 +199,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="container-fluid px-5">
+    <footer class="container-fluid px-lg-5">
       <img class="w-100" src="./assets/icons/line.svg" alt="Line" />
 
       <!-- Grid container -->

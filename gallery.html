@@ -22,13 +22,46 @@
   <body>
     <header class="container-fluid px-5 cover">
       <div class="d-flex flex-column" style="min-height: 70vh">
-        <nav class="navbar navbar-dark py-3 shadow-none">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 shadow-none">
           <a class="navbar-brand text-light">
             <span class="fw-bold fs-3">NEWYORK</span>
             <span style="font-size: 16px">tourists</span>
           </a>
 
-          <button class="btn btn-light btn-lg fs-6">Get Started</button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">FAQs</a>
+              </li>
+              <li class="nav-item dm-sans">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item ms-3">
+                <button class="btn btn-light btn-lg fs-6">Get Started</button>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <div class="header-content text-justify my-auto">
