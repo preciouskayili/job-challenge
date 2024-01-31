@@ -65,7 +65,7 @@ button {
   background-size: cover;
 }
 
-input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea {
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea, .input {
   background-color: #eee !important;
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
@@ -121,22 +121,9 @@ input[type="text"], input[type="email"], input[type="number"], input[type="tel"]
   color: #a19a9a !important;
 }
 
-input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea {
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea, .input {
   min-height: 60px !important;
   font-family: "DM Sans", sans-serif;
-}
-
-.wait-btn {
-  min-height: 60px !important;
-}
-
-.remove-outline,
-.remove-outline:hover,
-.remove-outline:focus {
-  outline: 0px !important;
-  -webkit-appearance: none;
-  border: 0 !important;
-  box-shadow: none !important;
 }
 
 .community {
@@ -145,13 +132,6 @@ input[type="text"], input[type="email"], input[type="number"], input[type="tel"]
   background-position: center;
   min-height: 60vh;
 }
-
-/* .icon::after {
-  content: "";
-  z-index: -1;
-  height: 100%;
-  border-left: 2px dotted #c7c1c1;
-} */
 
 .equal {
   display: flex;
