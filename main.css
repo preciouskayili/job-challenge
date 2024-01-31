@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.card {
+  border: none !important;
+  padding: 0;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-md {
+  font-size: 16px;
+}
+
+.text-hero {
+  font-size: 18px;
+}
+
+.bg {
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./assets/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rounded-10 {
+  border-radius: 1.25rem;
+}
+
+.primary-blue {
+  color: #0074ff;
+}
+
+.bg-primary-blue {
+  background-color: #0074ff !important;
+}
+
+.bg-light {
+  background-color: #eeeeee !important;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-super-light {
+  color: #676767;
+}
+
+.header-bg {
+  pointer-events: none;
+  position: absolute;
+  width: 100vw;
+  overflow-y: hidden;
+  height: 100vh;
+  z-index: -1;
+}
+
+.bg-image,
+.mask {
+  height: 100vh !important;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.input-light,
+.input-light:hover {
+  background-color: #f9f9f9 !important;
+}
+
+.text-muted {
+  color: #a19a9a !important;
+}
+
+input {
+  min-height: 60px !important;
+  font-family: "DM Sans", sans-serif;
+}
+
+.wait-btn {
+  min-height: 60px !important;
+}
+
+.remove-outline,
+.remove-outline:hover,
+.remove-outline:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.community {
+  background: url(./assets/PNGs/community.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+/* .icon::after {
+  content: "";
+  z-index: -1;
+  height: 100%;
+  border-left: 2px dotted #c7c1c1;
+} */
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.backdrop-blur {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(0.3rem);
+}
