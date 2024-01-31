@@ -65,20 +65,11 @@ button {
   background-size: cover;
 }
 
-.registration-form {
-  max-width: 70rem !important;
-}
-
-@media (max-width: 768px) {
-  .registration-form {
-    width: 100% !important;
-  }
-}
-
-input {
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea {
   background-color: #eee !important;
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
 .rounded-10 {
   border-radius: 1.25rem;
 }
@@ -130,7 +121,7 @@ input {
   color: #a19a9a !important;
 }
 
-input {
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="url"], input[type="checkbox"], textarea {
   min-height: 60px !important;
   font-family: "DM Sans", sans-serif;
 }
