@@ -65,6 +65,20 @@ button {
   background-size: cover;
 }
 
+.registration-form {
+  max-width: 70rem !important;
+}
+
+@media (max-width: 768px) {
+  .registration-form {
+    width: 100% !important;
+  }
+}
+
+input {
+  background-color: #eee !important;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
 .rounded-10 {
   border-radius: 1.25rem;
 }
